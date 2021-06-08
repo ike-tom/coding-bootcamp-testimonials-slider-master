@@ -36,8 +36,8 @@ const changeSlide = () => {
     h1.textContent = slideList[active].text;
     author.textContent = slideList[active].author;
     profession.textContent = slideList[active].profession;
-
 }
+
 const myTimer = setInterval(changeSlide, time)
 
 leftArrow.addEventListener("click", changeSlide)
